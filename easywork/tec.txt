@@ -1,0 +1,24 @@
+嵌入外部页面：
+ {
+	title : 'm.taobao',
+	closable : true,										
+	autoScroll : false,
+	html: '<div><iframe src ="http://m.taobao.com" height="100%" width="100%"></iframe></div>'
+}
+
+
+打开新的页面
+function createTab() {
+	var newPanel = new Ext.Panel({
+				title : 'autoload',
+				closable : true,
+				autoScroll : true,
+				autoLoad : {
+					url : "hello.html",
+					scripts : true
+				}
+			})
+	var tabPanel = Ext.getCmp("tabPanel")
+	tabPanel.add(newPanel).show()
+
+}

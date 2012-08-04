@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lang="http://www.springframework.org/schema/lang"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd">
+
+	<!-- this is the bean definition for the Groovy-backed Messenger implementation 
+		<lang:groovy id="messenger" script-source="classpath:Messenger.groovy"> <lang:property 
+		name="message" value="I Can Do The Frug" /> </lang:groovy> -->
+	<!-- an otherwise normal bean that will be injected by the Groovy-backed 
+		Messenger <bean id="bookingService" class="x.y.DefaultBookingService"> <property 
+		name="messenger" ref="messenger" /> </bean> -->
+
+	<!-- One of the (if not the) most compelling value adds of the dynamic language 
+		support in Spring is the 'refreshable bean' feature. A refreshable bean is 
+		a dynamic-language-backed bean that with a small amount of configuration, 
+		a dynamic-language-backed bean can monitor changes in its underlying source 
+		file resource, and then reload itself when the dynamic language source file 
+		is changed (for example when a developer edits and saves changes to the file 
+		on the filesystem).
+		
+		Please note that this feature is off by default
+		 -->
+	<lang:groovy id="hello"
+		refresh-check-delay="5000"
+		script-source="classpath:com/taobao/wuzhong/spring/GroovyHello.groovy">
+	</lang:groovy>
+	
+	<bean id="helloJava" class="com.taobao.wuzhong.spring.HelloImpl"></bean>
+	<bean id="helloJava2" class="com.taobao.wuzhong.spring.HelloImpl"></bean>
+	
+	<!--
+	<lang:jruby id="jhello"
+            script-interfaces="com.taobao.wuzhong.spring.Hello"
+            refresh-check-delay="1000"
+            script-source="classpath:com/taobao/wuzhong/spring/JrubyHello.rb">
+    </lang:jruby>
+	-->
+	
+</beans>

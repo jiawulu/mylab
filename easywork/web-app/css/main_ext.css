@@ -1,0 +1,52 @@
+html,body {
+	font: normal 12px verdana, 宋体;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	height: 100%;
+	background: url(../images/bg_002.gif) repeat-x;
+}
+
+p {
+	margin: 5px;
+}
+
+a.menubar {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 3px 3px 3px 3px;
+	line-height: 17px;
+	height: 20px;
+	white-space: nowrap;
+	text-decoration: none;
+	color: #222;
+	-moz-outline: 0 none;
+	outline: 0 none;
+	cursor: pointer;
+	border-bottom: 1px solid #aaccf6;
+}
+
+.settings {
+    background-image:url(../images/icons/fam/folder_wrench.png);
+}
+.nav {
+    background-image:url(../images/icons/fam/folder_go.png);
+}
+.info {
+    background-image:url(../images/icons/fam/information.png);
+}
+
+.option {
+	background-image: url(../images/icons/fam/add.gif) !important;
+}
+.add {
+	background-image: url(../images/icons/fam/add.gif) !important;
+}
+.remove {
+	background-image: url(../images/icons/fam/delete.gif) !important;
+}
+.search {
+	background-image: url(../images/icons/fam/rss_go.png) !important;
+}

@@ -1,0 +1,220 @@
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 18176K, used 15616K [0xa8ec0000, 0xaa300000, 0xb3960000)
+  eden space 15616K, 100% used [0xa8ec0000,0xa9e00000,0xa9e00000)
+  from space 2560K, 0% used [0xaa080000,0xaa080000,0xaa300000)
+  to   space 2560K, 0% used [0xa9e00000,0xa9e00000,0xaa080000)
+ PSOldGen        total 41600K, used 0K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 0% used [0x93960000,0x93960000,0x96200000)
+ PSPermGen       total 16384K, used 5240K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 31% used [0x8b960000,0x8be7e0f8,0x8c960000)
+0.690: [GC 15616K->1382K(59776K), 0.0037750 secs]
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 18176K, used 1382K [0xa8ec0000, 0xaa300000, 0xb3960000)
+  eden space 15616K, 0% used [0xa8ec0000,0xa8ec0000,0xa9e00000)
+  from space 2560K, 53% used [0xa9e00000,0xa9f598d8,0xaa080000)
+  to   space 2560K, 0% used [0xaa080000,0xaa080000,0xaa300000)
+ PSOldGen        total 41600K, used 0K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 0% used [0x93960000,0x93960000,0x96200000)
+ PSPermGen       total 16384K, used 5240K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 31% used [0x8b960000,0x8be7e0f8,0x8c960000)
+}
+{Heap before GC invocations=2 (full 0):
+ PSYoungGen      total 18176K, used 16998K [0xa8ec0000, 0xaa300000, 0xb3960000)
+  eden space 15616K, 100% used [0xa8ec0000,0xa9e00000,0xa9e00000)
+  from space 2560K, 53% used [0xa9e00000,0xa9f598d8,0xaa080000)
+  to   space 2560K, 0% used [0xaa080000,0xaa080000,0xaa300000)
+ PSOldGen        total 41600K, used 0K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 0% used [0x93960000,0x93960000,0x96200000)
+ PSPermGen       total 16384K, used 6347K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 38% used [0x8b960000,0x8bf92c80,0x8c960000)
+1.060: [GC 16998K->3656K(59776K), 0.0082290 secs]
+Heap after GC invocations=2 (full 0):
+ PSYoungGen      total 18176K, used 2552K [0xa8ec0000, 0xab240000, 0xb3960000)
+  eden space 15616K, 0% used [0xa8ec0000,0xa8ec0000,0xa9e00000)
+  from space 2560K, 99% used [0xaa080000,0xaa2fe090,0xaa300000)
+  to   space 2560K, 0% used [0xa9e00000,0xa9e00000,0xaa080000)
+ PSOldGen        total 41600K, used 1104K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 2% used [0x93960000,0x93a74220,0x96200000)
+ PSPermGen       total 16384K, used 6347K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 38% used [0x8b960000,0x8bf92c80,0x8c960000)
+}
+{Heap before GC invocations=3 (full 0):
+ PSYoungGen      total 18176K, used 18168K [0xa8ec0000, 0xab240000, 0xb3960000)
+  eden space 15616K, 100% used [0xa8ec0000,0xa9e00000,0xa9e00000)
+  from space 2560K, 99% used [0xaa080000,0xaa2fe090,0xaa300000)
+  to   space 2560K, 0% used [0xa9e00000,0xa9e00000,0xaa080000)
+ PSOldGen        total 41600K, used 1104K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 2% used [0x93960000,0x93a74220,0x96200000)
+ PSPermGen       total 16384K, used 6536K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 39% used [0x8b960000,0x8bfc2260,0x8c960000)
+1.365: [GC 19272K->5535K(59776K), 0.0104900 secs]
+Heap after GC invocations=3 (full 0):
+ PSYoungGen      total 18176K, used 2544K [0xa8ec0000, 0xab240000, 0xb3960000)
+  eden space 15616K, 0% used [0xa8ec0000,0xa8ec0000,0xa9e00000)
+  from space 2560K, 99% used [0xa9e00000,0xaa07c040,0xaa080000)
+  to   space 2560K, 0% used [0xaafc0000,0xaafc0000,0xab240000)
+ PSOldGen        total 41600K, used 2991K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 7% used [0x93960000,0x93c4bec0,0x96200000)
+ PSPermGen       total 16384K, used 6536K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 39% used [0x8b960000,0x8bfc2260,0x8c960000)
+}
+{Heap before GC invocations=4 (full 0):
+ PSYoungGen      total 18176K, used 18160K [0xa8ec0000, 0xab240000, 0xb3960000)
+  eden space 15616K, 100% used [0xa8ec0000,0xa9e00000,0xa9e00000)
+  from space 2560K, 99% used [0xa9e00000,0xaa07c040,0xaa080000)
+  to   space 2560K, 0% used [0xaafc0000,0xaafc0000,0xab240000)
+ PSOldGen        total 41600K, used 2991K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 7% used [0x93960000,0x93c4bec0,0x96200000)
+ PSPermGen       total 16384K, used 6563K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfc8d90,0x8c960000)
+1.655: [GC 21151K->7067K(75392K), 0.0110280 secs]
+Heap after GC invocations=4 (full 0):
+ PSYoungGen      total 33792K, used 2544K [0xa8ec0000, 0xab240000, 0xb3960000)
+  eden space 31232K, 0% used [0xa8ec0000,0xa8ec0000,0xaad40000)
+  from space 2560K, 99% used [0xaafc0000,0xab23c040,0xab240000)
+  to   space 2560K, 0% used [0xaad40000,0xaad40000,0xaafc0000)
+ PSOldGen        total 41600K, used 4523K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 10% used [0x93960000,0x93dcaee0,0x96200000)
+ PSPermGen       total 16384K, used 6563K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfc8d90,0x8c960000)
+}
+{Heap before GC invocations=5 (full 0):
+ PSYoungGen      total 33792K, used 33776K [0xa8ec0000, 0xab240000, 0xb3960000)
+  eden space 31232K, 100% used [0xa8ec0000,0xaad40000,0xaad40000)
+  from space 2560K, 99% used [0xaafc0000,0xab23c040,0xab240000)
+  to   space 2560K, 0% used [0xaad40000,0xaad40000,0xaafc0000)
+ PSOldGen        total 41600K, used 4523K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 10% used [0x93960000,0x93dcaee0,0x96200000)
+ PSPermGen       total 16384K, used 6587K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfcec18,0x8c960000)
+2.105: [GC 38299K->9967K(75392K), 0.0141830 secs]
+Heap after GC invocations=5 (full 0):
+ PSYoungGen      total 33792K, used 2544K [0xa8ec0000, 0xad8c0000, 0xb3960000)
+  eden space 31232K, 0% used [0xa8ec0000,0xa8ec0000,0xaad40000)
+  from space 2560K, 99% used [0xaad40000,0xaafbc040,0xaafc0000)
+  to   space 6656K, 0% used [0xad240000,0xad240000,0xad8c0000)
+ PSOldGen        total 41600K, used 7423K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 17% used [0x93960000,0x9409fef0,0x96200000)
+ PSPermGen       total 16384K, used 6587K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfcec18,0x8c960000)
+}
+{Heap before GC invocations=6 (full 0):
+ PSYoungGen      total 33792K, used 33776K [0xa8ec0000, 0xad8c0000, 0xb3960000)
+  eden space 31232K, 100% used [0xa8ec0000,0xaad40000,0xaad40000)
+  from space 2560K, 99% used [0xaad40000,0xaafbc040,0xaafc0000)
+  to   space 6656K, 0% used [0xad240000,0xad240000,0xad8c0000)
+ PSOldGen        total 41600K, used 7423K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 17% used [0x93960000,0x9409fef0,0x96200000)
+ PSPermGen       total 16384K, used 6599K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd1dd8,0x8c960000)
+2.555: [GC 41199K->11751K(110464K), 0.0134410 secs]
+Heap after GC invocations=6 (full 0):
+ PSYoungGen      total 68864K, used 4328K [0xa8ec0000, 0xad880000, 0xb3960000)
+  eden space 62464K, 0% used [0xa8ec0000,0xa8ec0000,0xacbc0000)
+  from space 6400K, 67% used [0xad240000,0xad67a070,0xad880000)
+  to   space 6528K, 0% used [0xacbc0000,0xacbc0000,0xad220000)
+ PSOldGen        total 41600K, used 7423K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 17% used [0x93960000,0x9409fef0,0x96200000)
+ PSPermGen       total 16384K, used 6599K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd1dd8,0x8c960000)
+}
+{Heap before GC invocations=7 (full 0):
+ PSYoungGen      total 68864K, used 66792K [0xa8ec0000, 0xad880000, 0xb3960000)
+  eden space 62464K, 100% used [0xa8ec0000,0xacbc0000,0xacbc0000)
+  from space 6400K, 67% used [0xad240000,0xad67a070,0xad880000)
+  to   space 6528K, 0% used [0xacbc0000,0xacbc0000,0xad220000)
+ PSOldGen        total 41600K, used 7423K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 17% used [0x93960000,0x9409fef0,0x96200000)
+ PSPermGen       total 16384K, used 6602K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd2a30,0x8c960000)
+2.809: [GC 74215K->13139K(110592K), 0.0144820 secs]
+Heap after GC invocations=7 (full 0):
+ PSYoungGen      total 68992K, used 3864K [0xa8ec0000, 0xb14c0000, 0xb3960000)
+  eden space 62464K, 0% used [0xa8ec0000,0xa8ec0000,0xacbc0000)
+  from space 6528K, 59% used [0xacbc0000,0xacf86030,0xad220000)
+  to   space 6144K, 0% used [0xb0ec0000,0xb0ec0000,0xb14c0000)
+ PSOldGen        total 41600K, used 9275K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 22% used [0x93960000,0x9426ef40,0x96200000)
+ PSPermGen       total 16384K, used 6602K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd2a30,0x8c960000)
+}
+{Heap before GC invocations=8 (full 0):
+ PSYoungGen      total 68992K, used 66328K [0xa8ec0000, 0xb14c0000, 0xb3960000)
+  eden space 62464K, 100% used [0xa8ec0000,0xacbc0000,0xacbc0000)
+  from space 6528K, 59% used [0xacbc0000,0xacf86030,0xad220000)
+  to   space 6144K, 0% used [0xb0ec0000,0xb0ec0000,0xb14c0000)
+ PSOldGen        total 41600K, used 9275K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 22% used [0x93960000,0x9426ef40,0x96200000)
+ PSPermGen       total 16384K, used 6609K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd4520,0x8c960000)
+3.056: [GC 75603K->12091K(172608K), 0.0067180 secs]
+Heap after GC invocations=8 (full 0):
+ PSYoungGen      total 131008K, used 2304K [0xa8ec0000, 0xb14e0000, 0xb3960000)
+  eden space 124864K, 0% used [0xa8ec0000,0xa8ec0000,0xb08b0000)
+  from space 6144K, 37% used [0xb0ec0000,0xb1100040,0xb14c0000)
+  to   space 6208K, 0% used [0xb08b0000,0xb08b0000,0xb0ec0000)
+ PSOldGen        total 41600K, used 9787K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 23% used [0x93960000,0x942eef40,0x96200000)
+ PSPermGen       total 16384K, used 6609K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd4520,0x8c960000)
+}
+{Heap before GC invocations=9 (full 0):
+ PSYoungGen      total 131008K, used 127168K [0xa8ec0000, 0xb14e0000, 0xb3960000)
+  eden space 124864K, 100% used [0xa8ec0000,0xb08b0000,0xb08b0000)
+  from space 6144K, 37% used [0xb0ec0000,0xb1100040,0xb14c0000)
+  to   space 6208K, 0% used [0xb08b0000,0xb08b0000,0xb0ec0000)
+ PSOldGen        total 41600K, used 9787K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 23% used [0x93960000,0x942eef40,0x96200000)
+ PSPermGen       total 16384K, used 6615K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd5dd0,0x8c960000)
+3.507: [GC 136955K->12155K(172672K), 0.0055210 secs]
+Heap after GC invocations=9 (full 0):
+ PSYoungGen      total 131072K, used 504K [0xa8ec0000, 0xb3960000, 0xb3960000)
+  eden space 124864K, 0% used [0xa8ec0000,0xa8ec0000,0xb08b0000)
+  from space 6208K, 8% used [0xb08b0000,0xb092e030,0xb0ec0000)
+  to   space 6528K, 0% used [0xb3300000,0xb3300000,0xb3960000)
+ PSOldGen        total 41600K, used 11651K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 28% used [0x93960000,0x944c0f50,0x96200000)
+ PSPermGen       total 16384K, used 6615K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 40% used [0x8b960000,0x8bfd5dd0,0x8c960000)
+}
+{Heap before GC invocations=10 (full 0):
+ PSYoungGen      total 131072K, used 20426K [0xa8ec0000, 0xb3960000, 0xb3960000)
+  eden space 124864K, 15% used [0xa8ec0000,0xaa234820,0xb08b0000)
+  from space 6208K, 8% used [0xb08b0000,0xb092e030,0xb0ec0000)
+  to   space 6528K, 0% used [0xb3300000,0xb3300000,0xb3960000)
+ PSOldGen        total 41600K, used 11651K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 28% used [0x93960000,0x944c0f50,0x96200000)
+ PSPermGen       total 16384K, used 6937K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 42% used [0x8b960000,0x8c026570,0x8c960000)
+3.743: [GC 32077K->12227K(209408K), 0.0013510 secs]
+Heap after GC invocations=10 (full 0):
+ PSYoungGen      total 167808K, used 336K [0xa8ec0000, 0xb3960000, 0xb3960000)
+  eden space 161280K, 0% used [0xa8ec0000,0xa8ec0000,0xb2c40000)
+  from space 6528K, 5% used [0xb3300000,0xb3354000,0xb3960000)
+  to   space 6720K, 0% used [0xb2c40000,0xb2c40000,0xb32d0000)
+ PSOldGen        total 41600K, used 11891K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 28% used [0x93960000,0x944fcf50,0x96200000)
+ PSPermGen       total 16384K, used 6937K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 42% used [0x8b960000,0x8c026570,0x8c960000)
+}
+{Heap before GC invocations=11 (full 1):
+ PSYoungGen      total 167808K, used 336K [0xa8ec0000, 0xb3960000, 0xb3960000)
+  eden space 161280K, 0% used [0xa8ec0000,0xa8ec0000,0xb2c40000)
+  from space 6528K, 5% used [0xb3300000,0xb3354000,0xb3960000)
+  to   space 6720K, 0% used [0xb2c40000,0xb2c40000,0xb32d0000)
+ PSOldGen        total 41600K, used 11891K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 28% used [0x93960000,0x944fcf50,0x96200000)
+ PSPermGen       total 16384K, used 6937K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 42% used [0x8b960000,0x8c026570,0x8c960000)
+3.744: [Full GC 12227K->12205K(209408K), 0.0467230 secs]
+Heap after GC invocations=11 (full 1):
+ PSYoungGen      total 167808K, used 0K [0xa8ec0000, 0xb3960000, 0xb3960000)
+  eden space 161280K, 0% used [0xa8ec0000,0xa8ec0000,0xb2c40000)
+  from space 6528K, 0% used [0xb3300000,0xb3300000,0xb3960000)
+  to   space 6720K, 0% used [0xb2c40000,0xb2c40000,0xb32d0000)
+ PSOldGen        total 41600K, used 12205K [0x93960000, 0x96200000, 0xa8ec0000)
+  object space 41600K, 29% used [0x93960000,0x9454b658,0x96200000)
+ PSPermGen       total 16384K, used 6937K [0x8b960000, 0x8c960000, 0x93960000)
+  object space 16384K, 42% used [0x8b960000,0x8c026570,0x8c960000)
+}
