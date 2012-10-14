@@ -2,7 +2,7 @@ require "open-uri";
 require 'net/smtp';
 
 hosts = [
-#"sirius177108.cm3",
+"sirius177108.cm3",
 "sirius049107.cm4",
 "sirius049090.cm4",
 "sirius049072.cm4",
@@ -15,7 +15,7 @@ hosts = [
 faileMache = Array.new
 
 hosts.each do |host|
-   _url = "http://" + host + ".ot.m.taobao.com/cart/confirm_order.htm?cart_id=14610703840&sid=078b3d43a38ca3119c6c8424f055553d";
+   _url = "http://" + host + ".ot.m.taobao.com/cart/confirm_order.htm?cart_id=14610703840&sid=333dc1f8f4e252e008f794a98c9c188e";
   ##puts _url;
 
   _success = false;
